@@ -1,0 +1,28 @@
+/* reset */
+body * {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+/* Body */
+body {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 400;
+  color: #FFFFFF;
+  background-color: #000000;
+}
+
+/* Nav */
+.logo{
+  height: 30px;
+  }
+
+.text-logo{
+font-size: 20px;
+}
+
+.bg-color{
+  background-color: #17A3B8;
+}
+
