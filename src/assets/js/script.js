@@ -24,4 +24,13 @@ $(function () {
     //popover íconos
     $('[data-toggle="popover"]').popover();
 
+    //Cambia color nav
+    $(window).scroll(function(){
+        if($("#menu").offset().top > 600){
+            $("#menu").addClass("bg-nav");
+        } else {
+            $("#menu").removeClass("bg-nav");
+        }
+    });
+
 });

@@ -18,6 +18,10 @@ body {
   height: 30px;
   }
 
+.bg-nav {
+  background-color: #000000;
+}
+
 .text-logo{
 font-size: 20px;
 }
@@ -33,6 +37,7 @@ h1 {
   font-weight: 300;
 }
 
+/* Section us, great and contact */
 .bordesup{
   border-top-style: solid;
   border-top-width: 2px;
