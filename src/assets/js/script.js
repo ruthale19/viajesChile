@@ -21,6 +21,7 @@ $(function () {
 
     });
 
-    //
+    //popover íconos
+    $('[data-toggle="popover"]').popover();
 
 });
