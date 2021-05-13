@@ -44,3 +44,9 @@ h1 {
 .bg-color{
   background-color: #17A3B8;
 }
+
+/* Footer */
+footer h2{
+  font-size: 25px;
+  font-weight: 500;
+}
