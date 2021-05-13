@@ -4,7 +4,7 @@ Proyecto versión Desktop y mobile con Bootstrap.
 
 ## Enlace Deploy
 
-[**Página principal**](https://ruthale19.github.io/Suricata/src/index.html) 
+[**Página principal**](https://ruthale19.github.io/viajesChile/src/index.html) 
 
 ## Desarrollado para
 
