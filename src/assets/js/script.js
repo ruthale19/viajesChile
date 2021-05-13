@@ -1,30 +1,24 @@
 $(function () {
 
-    // Tooltip
-    $('[data-toggle="tooltip"]').tooltip()
+    // smooth scroll
 
-    // click botón correo
-    $("#enviarCorreo").click(function () {
-        alert("El correo fue enviado correctamente...");
+    $("a").click(function (event) {
+        // Con este if se asegura que this.hash tenga un valor antes de anular el comportamiento predeterminado
+        if (this.hash !== "") {
+            // Previene el comportamiento de click predeterminado
+            event.preventDefault();
+            // Guarda el valor del hash en una variable llamada gato
+            var gato = this.hash;
+            // Usa el método animate para animar el scroll y hacerlo de una forma suave
+            // El número opciona (800) especifica el número de milisegundos que se demorara en llegar hasta el área
+            $('html, body').animate({
+                scrollTop: $(gato).offset().top
+            }, 800, function () {
+                // Agrega hash (#) a la URL cuando haya terminado de desplazarse (comportamiento de click predeterminado)
+                window.location.hash = gato;
+            });
+        } // Fin del if
+
     });
-
-    //Cambio color doble click con ON - titulo ingredientes
-    $("h3").on("dblclick", (function () {
-        $(this).css({
-            "color": "red"
-        });
-    }));
-
-    //Cambio color doble click sin ON - titulo preparación
-    $("h4").dblclick(function () {
-        $(this).css({
-            "color": "red"
-        });
-    });
-
-    //toggle - mostrar y ocultar contenido de card simultáneamente
-    $(".text-title").click(function(){
-        $(".text-subtitle").toggle();
-      });
 
 });
