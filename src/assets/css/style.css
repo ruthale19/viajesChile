@@ -7,27 +7,27 @@ body * {
 
 /* Body */
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 500;
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: #000000;
 }
 
 /* Nav */
-.logo{
+.logo {
   height: 30px;
-  }
+}
 
 .bg-nav {
   background-color: #000000;
 }
 
-.text-logo{
-font-size: 20px;
+.text-logo {
+  font-size: 20px;
 }
 
 /* Header */
-.carousel-height{
+.carousel-height {
   height: 600px;
 }
 
@@ -38,20 +38,29 @@ h1 {
 }
 
 /* Section us, great and contact */
-.bordesup{
+.bordesup {
   border-top-style: solid;
   border-top-width: 2px;
-  border-top-color: #17A3B8;
+  border-top-color: #17a3b8;
   margin-top: 15px;
 }
 
 /* Card - Footer */
-.bg-color{
-  background-color: #17A3B8;
+.bg-color {
+  background-color: #17a3b8;
 }
 
 /* Footer */
-footer h2{
+footer h2 {
   font-size: 25px;
   font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  /* Header */
+  .carousel-height {
+    height: 400px;
+  }
+
+  
 }
