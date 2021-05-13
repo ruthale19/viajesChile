@@ -27,8 +27,23 @@ font-size: 20px;
   height: 600px;
 }
 
+/* Section us */
+h1 {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.bordesup{
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #17A3B8;
+  margin-top: 15px;
+}
+
 /* Footer */
 .bg-color{
   background-color: #17A3B8;
 }
+
+
 
