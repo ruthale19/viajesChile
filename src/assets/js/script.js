@@ -24,7 +24,7 @@ $(function () {
     //popover íconos
     $('[data-toggle="popover"]').popover();
 
-    if (screen.width > 992) {
+    if (screen.width < 992) {
 
         //Cambia color nav
         $(window).scroll(function () {
